@@ -11,15 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: DavidAnson/markdownlint-cli2-action@v19
+      - name: Check Markdown formatting
+        uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           globs: "**/*.md"
-          config: |
-            {
-              "MD013": false,
-              "MD033": false,
-              "MD041": false
-            }
 
   check-links:
     runs-on: ubuntu-latest
@@ -29,3 +24,4 @@ jobs:
         uses: gaurav-nelson/github-action-markdown-link-check@v1
         with:
           use-quiet-mode: yes
+          use-verbose-mode: no

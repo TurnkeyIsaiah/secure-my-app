@@ -507,7 +507,7 @@ When asked to audit, check every applicable item:
 - [DOMPurify](https://github.com/cure53/DOMPurify)
 
 ### Rate Limiting
-- [Upstash Rate Limiting](https://upstash.com/docs/redis/sdks/ratelimit-ts/getting-started)
+- [Upstash Rate Limiting](https://upstash.com/docs/redis/sdks/ratelimit-ts/gettingstarted)
 - [Cloudflare Rate Limiting](https://developers.cloudflare.com/waf/rate-limiting-rules/)
 
 ### File Upload Security
