@@ -15,6 +15,12 @@ metadata:
 ---
 # Security Audit & Hardening Skill
 
+## About
+
+secure-my-app is a drop-in security skill for any AI coding agent. When loaded, it gives the agent an OWASP-backed playbook to audit web, mobile, and AI apps — then interview you about each finding with hyper-specific questions that double as build prompts. No vague reports, no silent changes. It covers 20+ security categories across auth, injection, XSS, secrets, rate limiting, file uploads, mobile storage, LLM security, and more.
+
+**Works with:** opencode, Claude Code, Cursor, Cline, and any agent that can load a SKILL.md.
+
 ## Core Philosophy
 
 > Frontend = display. Backend = trust. Database = protect. Mobile device = hostile environment. User input = suspicious until verified.
